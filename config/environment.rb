@@ -1,4 +1,4 @@
 require 'bundler'
 Bundler.require
 
-# Setup a DB connection here
+DB = SQLite3::Database.new("daily_show.db")
